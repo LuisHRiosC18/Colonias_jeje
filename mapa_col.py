@@ -20,10 +20,10 @@ from streamlit_folium import st_folium
 #from pyngrok import ngrok
 
 #os.chdir("C:/Users/luish/OneDrive/Documentos/Datos")
-url_1 = ""
+url_1 = "https://raw.githubusercontent.com/LuisHRiosC18/Colonias_jeje/refs/heads/main/sin_pago.csv"
 url_2= "https://raw.githubusercontent.com/LuisHRiosC18/Colonias_jeje/refs/heads/main/con_pago_unico.csv"
 
-no_pagan = pd.read_csv("sin_pago.csv")
+no_pagan = pd.read_csv(url_1)
 no_pagan['paga'] = False  # Columna que indica que no pagan
 
 # Cargar datos de personas que sí pagan
