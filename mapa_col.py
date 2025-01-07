@@ -5,11 +5,6 @@ Created on Mon Jan  6 17:03:32 2025
 @author: luish
 """
 
-! pip install streamlit
-! pip install pandas
-! pip install folium
-! pip install streamlit-folium
-
 import streamlit as st
 import pandas as pd
 import folium
