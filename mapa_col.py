@@ -5,18 +5,18 @@ Created on Mon Jan  6 17:03:32 2025
 @author: luish
 """
 
-import streamlit as st
-import pandas as pd
-import folium
-import os
+#import streamlit as st
+#import pandas as pd
+#import folium
+#import os
 
-from folium.plugins import MiniMap
-from folium.plugins import MarkerCluster
-from folium.plugins import FastMarkerCluster
-from folium.plugins import HeatMap
-from folium.plugins import DualMap
+#from folium.plugins import MiniMap
+#from folium.plugins import MarkerCluster
+#from folium.plugins import FastMarkerCluster
+#from folium.plugins import HeatMap
+#from folium.plugins import DualMap
 
-from streamlit_folium import st_folium
+#from streamlit_folium import st_folium
 #from pyngrok import ngrok
 
 #os.chdir("C:/Users/luish/OneDrive/Documentos/Datos")
