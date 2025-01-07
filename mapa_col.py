@@ -17,7 +17,7 @@ from folium.plugins import HeatMap
 from folium.plugins import DualMap
 
 from streamlit_folium import st_folium
-from pyngrok import ngrok
+#from pyngrok import ngrok
 
 #os.chdir("C:/Users/luish/OneDrive/Documentos/Datos")
 url_1 = "https://raw.githubusercontent.com/LuisHRiosC18/Colonias_jeje/refs/heads/main/sin_pago.csv"
